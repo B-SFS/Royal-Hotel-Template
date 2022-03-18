@@ -1,0 +1,61 @@
+ body
+ {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     overflow-x: hidden;
+     overflow-y: hidden;
+
+ }
+ #reload
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 500px;
+    margin-left:880px;
+    transition: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: ss;
+    position: absolute;
+    overflow: hidden;
+    
+}
+.img
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+/* .reload:hover
+{
+    transform: rotate(50deg);
+}  
+.circle
+{
+    width:17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: blue;
+    /* position: absolute;
+    top:-5px;
+    position: relative;
+    animation-name: circle;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    /* transition: 1s; 
+}*/
+
+
+@keyframes ss{
+ 0%{  transform:rotate(20deg) ;}
+25%{ transform:rotate(40deg) ;}
+35%{  transform:rotate(70deg) ;}
+45%{  transform:rotate(90deg) ;} 
+50%{  transform:rotate(120deg) ;}
+80%{ transform:rotate(200deg) ;}
+100%{  transform:rotate(400deg) ;} 
+
+}
